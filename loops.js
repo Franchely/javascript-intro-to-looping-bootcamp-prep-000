@@ -20,9 +20,9 @@ function doWhileLoop(num) {
  function incrementVariable() {
    num + 1;
   return num;
-}
+while (incrementVariable() < num) }
    console.log("I run once regardless.");
- } while (incrementVariable() < num);
+ } 
 }
 
 
