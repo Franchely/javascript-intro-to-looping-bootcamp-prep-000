@@ -6,3 +6,10 @@ function forLoop(array) {
   return array 
 }
 
+function whileLoop(Number) {
+  let countdown = (Number) 
+  while (countdown > 0) {
+    console.log(--countdown);
+  }
+  return "done"
+}
